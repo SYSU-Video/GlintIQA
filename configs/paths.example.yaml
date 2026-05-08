@@ -1,0 +1,18 @@
+datasets:
+  live: /public/datasets/iqadataset/LIVE
+  csiq: /public/datasets/iqadataset/CSIQ
+  tid2013: /public/datasets/iqadataset/TID2013
+  kadid-10k: /public/datasets/iqadataset/kadid10k
+  livemd: /public/datasets/iqadataset/LIVEMD
+  
+  clive: /public/datasets/iqadataset/LIVEC
+  koniq-10k: /public/datasets/iqadataset/koniq10k
+  bid: /public/datasets/iqadataset/BID
+  spaq: /public/datasets/iqadataset/SPAQ
+  fblive: /public/datasets/iqadataset/FBLIVE
+
+  saqt-iqa: /public/datasets/iqadataset/SAQT_IQA
+
+saqt:
+  label_dir: /public/wxq_projects/iqa/GlintIQA/GlintIQA_github/dataset_generation/create_dataset/outputs/labels/saqt-iqa/top1
+  similarity_csv: /path/to/selected_similarity_img_in_iqadataset.csv

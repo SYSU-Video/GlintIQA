@@ -118,12 +118,31 @@ Cross-dataset evaluation entry point:
      --eval-batch-size 32
 ```
 
+## Pretraining SAQT dataset
+
+```bash
+  torchrun --nproc_per_node=4 scripts/train_distributed.py \
+    --dataset-root /path/to/SAQT_IQA/images \
+    --label-path /path/to/SAQT_IQA/labels \
+    --similarity-csv /path/to/similarity_img_in_kadid-10k_resnet101.csv \
+    --output-dir ./outputs/pretrain_saqt \
+    --epochs 50 \
+    --batch-size 128 \
+    --val-size 1000 \
+    --amp
+
+  # If you need to run additional tests on KADID-10K, you can explicitly specify:
+  --test-dataset kadid-10k \
+  --test-dataset-root /path/to/kadid10k \
+  --test-every 5
+```
+
 ## 📖 Citation
 
 If you find our work useful or relevant to your research, please cite our paper:
 
 ```bibtex
-@article{wang2024glintiqa,
+@article{wang2026glintiqa,
   title={No-Reference Image Quality Assessment with Global-Local Progressive Integration and Semantic-Aligned Quality Transfer},
   author={Wang, Xiaoqi and Zhang, Yun},
   journal={ACM Transactions on Multimedia Computing, Communications, and Applications},

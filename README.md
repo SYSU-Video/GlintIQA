@@ -143,8 +143,21 @@ If you find our work useful or relevant to your research, please cite our paper:
 
 ```bibtex
 @article{wang2026glintiqa,
-  title={No-Reference Image Quality Assessment with Global-Local Progressive Integration and Semantic-Aligned Quality Transfer},
+author = {Wang, Xiaoqi and Zhang, Yun},
+title = {Global-Local Progressive Integration and Semantic-Aligned Quality Transfer for No-Reference Image Quality Assessment},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {1551-6857},
+url = {https://doi.org/10.1145/3815779},
+doi = {10.1145/3815779},
+journal = {ACM Trans. Multimedia Comput. Commun. Appl.},
+month = may
+}
+
+@article{wang2024glintiqa,
+  title={No-reference image quality assessment with global-local progressive integration and semantic-aligned quality transfer},
   author={Wang, Xiaoqi and Zhang, Yun},
-  journal={ACM Transactions on Multimedia Computing, Communications, and Applications},
-  year={2026}
+  journal={arXiv preprint arXiv:2408.03885},
+  year={2024}
 }
